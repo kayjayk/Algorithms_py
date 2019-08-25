@@ -5,7 +5,7 @@ Created on Sun Aug 25 16:27:01 2019
 @author: Kwon
 """
 
-inputStr = input()
+inputStr = input().split()
 H = int(inputStr[0])
 M = int(inputStr[1])
 
@@ -17,3 +17,5 @@ if M < 0 :
     
 if H < 0 :
     H += 24
+    
+print(H, M)
